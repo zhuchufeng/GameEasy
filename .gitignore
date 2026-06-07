@@ -10,13 +10,7 @@ build/
 *.spec
 
 # ============================================================
-#  YOLO Models (large files - distribute separately)
-# ============================================================
-models/*.onnx
-models/**/*.onnx
-
-# ============================================================
-#  User config (contains machine-specific paths)
+#  User config (template is tracked, actual config is not)
 # ============================================================
 roco_auto/data/saved_config.json
 
